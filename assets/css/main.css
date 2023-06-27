@@ -494,7 +494,7 @@ body {
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #0f33ff;
+  background-color: #ff0f54;
   border: none;
   opacity: 0;
   visibility: hidden;
@@ -578,7 +578,7 @@ body {
   content: '05';
 }
 .side-nav li.is-active {
-  color: #0f33ff;
+  color: #ff0f54;
   -webkit-transition: color 0.4s ease-in-out;
   transition: color 0.4s ease-in-out;
 }
@@ -642,7 +642,7 @@ intro-text-contact{
   left: 0;
   width: 30px;
   height: 4px;
-  background-color: #0f33ff;
+  background-color: #ff0f54;
 }
 .intro--banner h1 {
   position: relative;
@@ -665,7 +665,7 @@ intro-text-contact{
   left: 23px;
   right: 0;
   height: 100%;
-  background-color: #0f33ff;
+  background-color: #ff0f54;
   z-index: -1;
   -webkit-transition: left 0.2s ease-in-out;
   transition: left 0.2s ease-in-out;
@@ -1008,7 +1008,7 @@ intro-text-contact{
   left: 200px;
   -webkit-transform: rotate(-25deg);
   transform: rotate(-25deg);
-  border: 5px solid #0f33ff;
+  border: 5px solid #ff0f54;
   border-right-color: transparent;
   border-bottom-color: transparent;
 }
@@ -1021,7 +1021,7 @@ intro-text-contact{
   transform: rotate(45deg);
   width: 10px;
   height: 10px;
-  background-color: #0f33ff;
+  background-color: #ff0f54;
 }
 .about--banner h2 {
   position: relative;
@@ -1038,7 +1038,7 @@ intro-text-contact{
   left: 268px;
   width: 30px;
   height: 30px;
-  background-color: #0f33ff;
+  background-color: #ff0f54;
   border-radius: 50%;
 }
 .about--banner h2::after {
@@ -1048,7 +1048,7 @@ intro-text-contact{
   left: 255px;
   width: 10px;
   height: 10px;
-  background-color: #0f33ff;
+  background-color: #ff0f54;
 }
 .about--banner a {
   padding: 5px 17px 5px 0;
@@ -1094,13 +1094,13 @@ intro-text-contact{
   height: 75px;
   text-decoration: none;
   color: #fff;
-  border: 10px solid #0f33ff;
+  border: 10px solid #ff0f54;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .about--options > a:nth-child(1) {
-  background-image: url('../img/about-winners.jpg');
+  background-image: url('../img/blog.png');
 }
 .about--options > a:nth-child(2) {
   background-image: url('../img/about-philosophy.jpg');
@@ -1160,7 +1160,7 @@ intro-text-contact{
   }
   .about--banner h2 {
     margin-top: 0;
-    font-size: 55px;
+    font-size: 2rem;
   }
   .about--banner h2::before {
     top: 43px;
@@ -1169,6 +1169,9 @@ intro-text-contact{
   .about--banner h2::after {
     top: 205px;
     left: 205px;
+  }
+  .about--banner a {
+    font-size: 0.8rem;
   }
   .about--banner img {
     display: none;
@@ -1254,7 +1257,7 @@ intro-text-contact{
 }
 .contact--lockup .modal--options li:nth-child(3) {
   margin-bottom: 0;
-  background-color: #0f33ff;
+  background-color: #ff0f54;
   text-transform: uppercase;
 }
 .contact--lockup .modal--options a {
@@ -1319,7 +1322,7 @@ intro-text-contact{
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #0f33ff;
+  background-color: #ff0f54;
   border: none;
   border-radius: 0;
 }
@@ -1331,6 +1334,7 @@ intro-text-contact{
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1392,8 +1396,8 @@ intro-text-contact{
   display: none;
 }
 .work-request--options input[type='checkbox']:checked + label {
-  background-color: #0f33ff;
-  border-color: #0f33ff;
+  background-color: #ff0f54;
+  border-color: #ff0f54;
 }
 .work-request--options input[type='checkbox']:checked + label svg {
   width: 15px;
@@ -1405,9 +1409,9 @@ intro-text-contact{
   display: flex;
   width: 100%;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
+  -webkit-justify-content: center;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 60px;
 }
 .work-request--information .information-name,
@@ -1509,7 +1513,7 @@ intro-text-contact{
   -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
   transform: translateZ(0) translateX(0) rotateY(0deg);
   min-height: 100%;
-  outline: 30px solid #0f33ff;
+  outline: 30px solid #ff0f54;
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
@@ -1534,7 +1538,7 @@ intro-text-contact{
 .effect-rotate-left--animate .container {
   -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
   transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-  outline: 30px solid #0f33ff;
+  outline: 30px solid #ff0f54;
 }
 .outer-nav {
   position: absolute;
@@ -1601,7 +1605,7 @@ intro-text-contact{
   width: 110%;
   height: 15px;
   opacity: 0;
-  background-color: #0f33ff;
+  background-color: #ff0f54;
 }
 .outer-nav > li.is-active::before {
   opacity: 1;
