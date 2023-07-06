@@ -97,7 +97,7 @@ $( document ).ready(function() {
         updateContent(curPos, nextPos, lastItem);
       }
       else {
-        updateNavs(nextPos);
+        updateNavs(nextPos);k
         updateContent(curPos, nextPos, lastItem);
       }
     }
