@@ -818,6 +818,7 @@ intro-text-contact{
 }
 .work--lockup {
   position: relative;
+  transition: .4s;
 }
 .work--lockup .slider {
   position: relative;
@@ -834,6 +835,11 @@ intro-text-contact{
   position: absolute;
   display: none;
   text-align: center;
+  transition: .4s;
+}
+
+.work--lockup:hover, .slider--item:hover, .slider--item-image:hover {
+  transform: scale(0.95);
 }
 .work--lockup .slider--item a {
   text-decoration: none;
@@ -856,6 +862,7 @@ intro-text-contact{
   margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
+  transition: .4s;
 }
 .work--lockup .slider--item-image img {
     display: block;
